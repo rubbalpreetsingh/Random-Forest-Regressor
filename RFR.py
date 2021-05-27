@@ -1,17 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
-# By using Desicision tree
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 
-
-# In[9]:
 
 
 data = pd.read_csv("Position_Salaries.csv")
